@@ -1,0 +1,89 @@
+:root{
+    --main-font :  'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #141414 ;
+    color: white;
+    font-family: var(--main-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1f1f1f;
+    height: 90%;
+    width: 30%;
+    gap: 0.5rem;
+    border-radius: 10px;
+
+}
+
+.avatar{
+    width: 5rem;
+    border-radius: 100%;
+}
+.dev-name{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-family: var(--main-font);
+    margin-top: 2%;
+}
+.location{
+    font-size: 0.95rem;
+    font-family: var(--main-font);
+    color: #c4f82a;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+.job-title{
+    font-size: 0.85rem;
+    font-family: var(--main-font);
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+.buttons{
+    margin-bottom: 5%;
+}
+.buttons button{
+    background-color: #333333;
+    cursor: pointer;
+    height: 3rem;
+    width: 18rem;
+    outline: none;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin: 1%;
+}
+.buttons button:hover{
+    background-color: #c4f82a;
+    color: black;
+}
+.attribution{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+.attribution a {
+    font-weight: 700;
+    color: #3e52a3;
+  }
