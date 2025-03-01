@@ -87,11 +87,14 @@ body{
     font-weight: 700;
     color: #3e52a3;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 1375px) {
     .card-container {
-      padding: 1rem;
+        height: 90%;
+        width: 80%;
     }
-  
+    .buttons button{
+        width: 90%;
+    }
     .dev-name {
       font-size: 1.25rem;
     }
