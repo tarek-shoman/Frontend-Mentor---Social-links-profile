@@ -87,7 +87,18 @@ body{
     font-weight: 700;
     color: #3e52a3;
   }
-  @media (max-width: 1375px) {
+
+  @media (max-width: 768px) {
+    .attribution {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 425px) {
+    .attribution {
+      font-size: 9px;
+    }
+  }
+  @media (max-width: 975px) {
     .card-container {
         height: 90%;
         width: 80%;
